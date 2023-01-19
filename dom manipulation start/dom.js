@@ -14,9 +14,18 @@ var headerTitle=document.getElementById("header-title");
 //headerTitle.textContent="Hello";
 //headerTitle.innerText="Goodbye";
 //headerTitle.innerHTML="<h3>Hii</h3>"
-var header=document.getElementById("main-header")
-header.style.border="solid 3px #000";
-var title1=document.getElementsByClassName("title");
-console.log(title1);
-title1[0].style.fontWeight="bold";
-title1[0].style.color="green";
+//var header=document.getElementById("main-header")
+//header.style.border="solid 3px #000";
+//var title1=document.getElementsByClassName("title");
+//console.log(title1);
+//title1[0].style.fontWeight="bold";
+//title1[0].style.color="green";
+
+var list=document.getElementsByClassName("list-group-item")
+console.log(list);
+//list[2].style.backgroundColor="green";
+for(var i=0;i<list.length;i++){
+    list[i].style.fontWeight="bold";
+    list[i].style.color="green";
+}
+
