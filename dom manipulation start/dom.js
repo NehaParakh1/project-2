@@ -37,11 +37,31 @@ var headerTitle=document.getElementById("header-title");
 //newli[0].style.color="blue"
 
 //GETELEMENTSBYTAGNAME
-var liitems=document.getElementsByTagName("li")
-console.log(liitems);
-liitems[4].style.backgroundColor="green";
-for(var i=0;i<liitems.length;i++){
-    liitems[i].style.fontWeight="bold";
-    liitems[4].style.color="yellow";
+//var liitems=document.getElementsByTagName("li")
+//console.log(liitems);
+//liitems[4].style.backgroundColor="green";
+//for(var i=0;i<liitems.length;i++){
+    //liitems[i].style.fontWeight="bold";
+    //liitems[4].style.color="yellow";
+//}
+
+//QUERYSELECTOR
+//TASK NO.6
+//var seconditem=document.querySelector(".list-group-item:nth-child(2)")
+//seconditem.style.backgroundColor="green"
+
+//var thirditem=document.querySelector(".list-group-item:nth-child(3)")
+//thirditem.style.display="none"
+
+//QUERYSELECTORALL
+
+var seconditem=document.querySelectorAll("li")
+seconditem[1].style.color="green"
+
+var odd=document.querySelectorAll("li:nth-child(odd)")
+for(var i=0;i<odd.length;i++){
+odd[i].style.backgroundColor="green"
 }
+
+
 
