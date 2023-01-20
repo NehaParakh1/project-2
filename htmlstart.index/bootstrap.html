@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <meta>
+        </meta>
+        <style>
+            form {
+                text-align: left;
+            }
+            input {
+                font-size:20px;
+                width: 800px;
+            }
+            #date{
+                width:395px;
+            }
+            #time{
+                width:395px;
+            }
+            body {
+              background-color: aqua;
+            }
+            h1 {
+                color: orange;
+                text-align: center;
+            }
+            h5 {
+                text-align: center;
+            }
+            button{
+                
+                background-color: coral;
+                text-align: center;
+                width: 800px;
+                font-size:25px
+            }
+        </style>
+       
+    </head>
+
+    <body>
+        <form action="#">
+      <div class="container">
+        <h1>Book a call</h1>
+        <h4>Book a call slot and our representative will call you within 1 hr of selected time. </h4>
+        <hr>
+        <div class="form-group">
+        <label for="fname"><b>Name:</b></label><br>
+        <input type="text" class="form-control"
+         name="fname" id="fname" required>
+        </div>
+    <br>
+    <div class="form-group">
+        <label for="email"><b>Email:</b></label><br>
+        <input type="text"  name="email" id="email" class="form-control" required>
+        </div>
+    <br>
+    <div class="form-group">
+        <label for="phone"><b>Phone:</b></label><br>
+        <input type="text" class="form-control" name="phone" id="phone" required>
+        </div>
+    
+    <br>
+    <div class="form-group">
+    <label for="call"><b>Time for call:</b></label><br>
+        <input type="date" class="form-control col-md-6" name="date" id="date">
+        <input type="time" class="form-control col-md-6" name="time" id="time">
+        </div>
+        <br>
+        <button type="submit" onclick="displayDetails()" class="btn btn-primary">Get a call</button>
+      </div>
+    
+      
+    </form>
+    </body>
