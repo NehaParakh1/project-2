@@ -1,4 +1,4 @@
-//Creating the edit button next to delete button
+
 
 // to grab the element
 let form = document.getElementById('addForm')
@@ -32,6 +32,7 @@ function addItem(e){
     li.appendChild(document.createTextNode(newItem))
 
     //creating the delete button element
+    //Creating the edit button next to delete button
     let deleteBtn = document.createElement('button');
     let editBtn = document.createElement('button');
 
@@ -51,6 +52,8 @@ function addItem(e){
     //Append li to list
     itemList.appendChild(li);
 }
+//adding edit button in existing lis
+
 var list=document.getElementsByClassName('list-group-item');
 
 
