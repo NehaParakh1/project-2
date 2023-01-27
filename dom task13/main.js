@@ -17,8 +17,11 @@ function showUserOnScreen(obj){
     childItem.textContent= obj.name + ' - '+ obj.email + ' - ' + obj.phonenumber
 
     const deleteButton=document.createElement('input')
+    const editButton=document.createElement("input")   
     deleteButton.type= "button"
+    editButton.type= "button"
     deleteButton.value= 'delete'
+    editButton.value= 'edit'
     deleteButton.onclick= ()=>{
         localStorage.removeItem(obj.email)
         parentItem.removeChild(childItem)

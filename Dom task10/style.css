@@ -1,7 +1,7 @@
-{
+*{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing : border-box;
   }
   
   body {
@@ -48,7 +48,20 @@
     border-radius: 5px;
     border: 1px solid #ccc;
   }
-  
+    #my-form input[type='email'] {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+  }
+  #my-form input[type='tel'] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
   .btn {
     display: block;
     width: 100%;
